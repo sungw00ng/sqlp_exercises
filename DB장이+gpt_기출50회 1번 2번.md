@@ -114,7 +114,7 @@ EMP_PART_X2는 로컬 파티션 인덱스이나, 실행계획에서 PARTITION RA
 ```
 
 2-1)
-```
+```sql
 ALTER TABLE t1 NOLOGGING;
 
 INSERT /*+ APPEND */
@@ -123,7 +123,7 @@ SELECT * FROM t2;
 ```
 
 2-2)
-```
+```sql
 UPDATE t1
 SET    c2 = 'Y'
 WHERE  c1 < TRUNC(ADD_MONTHS(SYSDATE, 2))
@@ -131,7 +131,7 @@ AND    c2 <> 'Y';
 ```
 
 2-3)
-```
+```sql
 -- 5%만 임시 저장
 INSERT /*+ APPEND */ INTO tmp
 SELECT * FROM t1 PARTITION (202402)
