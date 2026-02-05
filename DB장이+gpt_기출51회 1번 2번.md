@@ -1,4 +1,4 @@
-```
+```yml
 51회 기출문제 배경 지식
 실기 1번
 TOP-N: ROW_NUMBER() OVER (ORDER BY 주문일시 DESC) → WINDOW SORT PUSHED RANK → 2-1
