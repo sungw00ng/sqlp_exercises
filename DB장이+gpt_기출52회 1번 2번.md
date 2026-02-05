@@ -217,7 +217,7 @@ AND    C.이벤트명(+) = 'SQLP';
 
 
 ## 52회 실기 2번 정답 (예상안)
-```
+```sql
 INSERT INTO 주문통계
 SELECT /*+ LEADING(A E F) USE_HASH(E F) SWAP_JOIN_INPUTS(E) SWAP_JOIN_INPUTS(F) */
        A.주문일시, A.고객유형, E.코드상세유형, A.상품유형, F.코드상세유형, A.주문수량
