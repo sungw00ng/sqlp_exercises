@@ -8,4 +8,4 @@ https://www.db-fiddle.com/ : 쿼리 타자 손맛 좋음 <br>
 SQLD이지패스(앱) : 1과목, 2과목 모의고사로 복습하기 좋음 <br>
 [홍썜의 데이터랩](https://www.youtube.com/@hdatalab) : 1과목, 2과목 이론 복습하기 좋음 <br>
 [전광철 OCP](https://www.youtube.com/@ocp396/videos) : 노랭이 3과목 무료로 설명해줌 <br>
-[River님 블로그](https://velog.io/@yooha9621/series/SQLP%ED%95%84%EA%B8%B0%EC%97%B0%EC%8A%B5) : 이론 정리<br>
+[River님 블로그](https://velog.io/@yooha9621/series/SQLP%ED%95%84%EA%B8%B0%EC%97%B0%EC%8A%B5) : 3과목 이론 정리<br>
